@@ -1,0 +1,166 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background:#F8F8FF;
+}
+
+nav{
+    margin: 2%;
+}
+
+ul {
+    list-style-type: none;
+    color:#000000;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px 20px; ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.titulo-inicial{ 
+    
+    max-width: 980px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+.imagem{
+    align-items: flex-start;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #FF4500;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #228B22;
+    font-size: 24px;
+}
+
+.img-consagra {
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.quarto-paragrafo{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+h3{
+    height: 150px;
+    color: #8B0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    
+}
+.ig-video{
+    width: 30%;
+    height: 30%;
+}
+
+
+
+.segundo-paragrafo{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.ig-video, segundo-paragrafo{
+    display: inline-block;
+    float: left;
+}
+
+
+
+h4{
+    text-align: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: 	#FF1493;
+}
+
+ .terceiro-paragrafo{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+ }
+
+
+ @media screen and (max-width:1024px) {
+    .titulo-inicial {
+        width: 1000px;
+    }
+    .quarto-paragrafo{
+        width: 1000px;
+    }
+    
+    #container{
+        width: 1000px;
+    }
+    .titulo-tres{
+        width: 1000px;
+    }
+    nav{
+        width: 1000px;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+    .titulo-inicial {
+        width: 700px;
+    }
+    .quarto-paragrafo{
+        width: 700px;
+    }
+    #container{
+        width: 700px;
+    }
+    .titulo-tres{
+        width: 700px;
+    }
+    nav{
+        width: 700px;
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+    .titulo-inicial {
+        width: 400px;
+    }
+    .quarto-paragrafo{
+        width: 400px;
+    }
+    #container{
+        width: 400px;
+    }
+    .titulo-tres{
+        width: 400px;
+    }
+    nav{
+        width: 400px;
+    }
+ }
